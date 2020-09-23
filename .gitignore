@@ -1,3 +1,13 @@
+# user ignores
+# ignore all keyboards except keebio/iris
+!/keyboards/
+/keyboards/*
+!/keyboards/keebio
+/keyboards/keebio/*
+!/keyboards/keebio/iris
+
+# original ignores below
+
 .history/
 .dep
 *.o
